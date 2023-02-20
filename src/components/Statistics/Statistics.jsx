@@ -39,7 +39,7 @@ export const Statistics = ({ title, stats }) => {
 };
 
 
-Statistics.PropTypes = {
+Statistics.propTypes = {
     label: PropTypes.string.isRequired,
     percentage: PropTypes.number.isRequired,
 };

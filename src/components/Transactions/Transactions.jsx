@@ -42,7 +42,7 @@ export const TransactionHistory = ({ items }) => {
   );
 };
 
-TransactionHistory.PropTypes = {
+TransactionHistory.propTypes = {
   id: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   amount: PropTypes.string.isRequired,
