@@ -4,8 +4,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 15px;
+  padding-top: 35px;
   width: 370px;
+  background-color: #EEE2DC;
   box-shadow: 0 0 10px #c6cccced;
   border-radius: 10px;
 }
@@ -15,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   width: inherit;
-  background-color: #EEE2DC;
+  /* background-color: #EEE2DC; */
   border-bottom: #7e6f7498 solid 2px;
 }
 
